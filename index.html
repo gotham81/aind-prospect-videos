@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRI Prospect Video</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000; /* Clean black background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            max-width: 1080px;
+            object-fit: contain; /* Keeps the vertical aspect ratio perfect */
+        }
+    </style>
+</head>
+<body>
+    <!-- Autoplays the video as soon as the page loads -->
+    <video controls autoplay playsinline name="media">
+        <source src="nri_one_only_hudson_valley_aind_revision1_compressed.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
