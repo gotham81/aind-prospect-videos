@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRI Audit Explainer</title>
+
+    <!-- Google tag (gtag.js) for AIND GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4EG0HS2K6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-R4EG0HS2K6');
+    </script>
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            max-width: 1920px; /* Adapted for horizontal 16:9 aspect ratio */
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay playsinline name="media">
+        <source src="nri-audit-explainer.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
